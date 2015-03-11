@@ -189,7 +189,7 @@ The `depends` option allows expressing containers that must be started before. T
 
 The service file created for systemd and upstart based systems enables automatic restarting of the service on failure by default.
 
-To use an image tag just append the tag name to the image name separated by a semicolon:
+To use an image tag just append the tag name to the image name separated by a colon:
 
 ```puppet
 docker::run { 'helloworld':
